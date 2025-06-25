@@ -8,10 +8,10 @@ console.log("🌱 Database seeded.");
 
 async function seedEmployees() {
   console.log('ADDING EMPLOYEES')
-  await createdEmployees({name:'Jason Bourne', birthday:'1991-01-05', salary:100000})
-  await createdEmployees({name:'Frodo Baggins', birthday:'1987-02-06', salary:125000})
-  await createdEmployees({name:'Harry Potter', birthday:'1983-03-07', salary:150000})
-  await createdEmployees({name:'Anakin Skywalker', birthday:'1979-04-08', salary:175000})
-  await createdEmployees({name:'Seth Rogen', birthday:'1975-05-09', salary:200000})
+  await createEmployees({name:'Jason Bourne', birthday:'1991-01-05', salary:100000})
+  await createEmployees({name:'Frodo Baggins', birthday:'1987-02-06', salary:125000})
+  await createEmployees({name:'Harry Potter', birthday:'1983-03-07', salary:150000})
+  await createEmployees({name:'Anakin Skywalker', birthday:'1979-04-08', salary:175000})
+  await createEmployees({name:'Seth Rogen', birthday:'1975-05-09', salary:200000})
   console.log('EMPLOYEES ADDED')
 }

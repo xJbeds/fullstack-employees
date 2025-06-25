@@ -1,10 +1,10 @@
 import db from '#db/client'
 
 /** @returns the employee created according to the provided details */
-export async function createEmployee({ name, birthday, salary }) {
+export async function createEmployees({ name, birthday, salary }) {
    
   const sql = ` 
-  INSERT INTO movies (name, birthday, salary)
+  INSERT INTO employees (name, birthday, salary)
   VALUES ($1, $2, $3)
   RETURNING *;
   `
