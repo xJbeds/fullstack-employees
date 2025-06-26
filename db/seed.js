@@ -1,5 +1,5 @@
 import db from "#db/client";
-import { createEmployee } from './queries/employees.js'
+import { createEmployee } from './employees.js'
 
 await db.connect();
 await seedEmployees();
